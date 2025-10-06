@@ -1,0 +1,2 @@
+import Link from 'next/link'
+export default function BrandCard({brand,count}){return(<div className='card'><div style={{display:'flex',gap:12,alignItems:'center'}}><img src={brand.logo} width='40' height='40' style={{borderRadius:8}} alt={brand.name}/><div style={{flex:1}}><div style={{fontWeight:600}}>{brand.name}</div><div className='small'>{brand.description}</div></div><div className='small'>{count} koder</div></div><div style={{marginTop:12}}><Link className='btn' href={`/brand/${brand.id}`}>Se koder</Link></div></div>)}

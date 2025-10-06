@@ -1,0 +1,1 @@
+import Logo from '@/components/Logo';export default function Page(){return(<><header className='header'><div className='container nav'><a href='/' aria-label='Forside'><Logo/></a></div></header><main className='container' style={paddingTop:24}><h1>Vilkår og betingelser</h1><p className='small'>Redigér denne side i pages/vilkar.js</p></main></>) }

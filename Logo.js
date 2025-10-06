@@ -1,0 +1,1 @@
+export default function Logo(){return(<div className='brand'><img src='/logo.svg' width='28' height='28' alt='Panda Rabatkoder'/><span>Panda Rabatkoder</span></div>)}
